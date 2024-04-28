@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ========== Tailwind ========== -->
+        <link href="./src/css/output.css" rel="stylesheet">
+        <!-- ========== End Section ========== -->
+
+        <!-- ========== Bootstarp Icons ========== -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <!-- ========== End Section ========== -->
+
+
+        <title>Mes patrons couture</title>
+
+    </head>
+    <body id="top">
+        <header class="bg-blue-200 z-50 fixed top-0 w-full shadow">
+            <nav 
+            id="main-nav" 
+            class="bg-blue-200 max-w5x1 mx-auto p-6 flex items-center justify-between"
+            >
+                <a 
+                href="top"
+                class="flex"
+                aria-label="Page d'accueil de la collection des patrons couture"
+                >
+                    <span 
+                    aria-hidden="true"
+                    class="text-lg lg:text-xl"
+                    >
+                        Mes patrons couture
+                    </span>
+                </a> 
+                <button
+                aria-label="toggle button"
+                aria-expended="false"
+                id="menu-btn"
+                class="cursor-ponter w-7 md:hidden"
+                >
+                    <i class="bi bi-list"></i>
+                </button>
+                <ul 
+                id="toggle-menu"
+                class="w-full absolute top-full left-0 -translate-y-full -z-10 text-gray-800 boder-b bg-blue-100 border-gray-200 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row" 
+                >
+                    <li class="py-4 md:py-0 md:mr-6">
+                        <a href="" class="text-sm uppercase font-semibold w-full hover:text-rose-600">Accueil</a>
+                    </li>
+                    <li class="py-4 md:py-0 md:mr-6">
+                        <a href="" class="text-sm uppercase font-semibold w-full hover:text-rose-600">Catégories</a>
+                    </li>
+                    <li class="py-4 md:py-0 md:mr-6">
+                        <a href="" class="text-sm uppercase font-semibold w-full hover:text-rose-600">Me connecter</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+    
+        </main>
+        <footer>
+            <p>&copy; 2024 <i class="bi-alarm"></i> - Made by Jessica Troilo - Mes patrons couture</p>
+        </footer>
+
+        <!-- ========== JS ========== -->
+        <script src="./src/js/script.js"></script>
+        <!-- ========== End Section ========== -->
+    </body>
+</html>
