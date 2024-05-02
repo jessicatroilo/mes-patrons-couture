@@ -19,6 +19,28 @@ html {
     color: var(--text);
 }
 
+/** NAVBAR **/
+
+
+.navbar {
+    background-color: var(--primary);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--background);
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: var(--background);
+}
+
+
+
+
 /** CARD **/
 
 .card {
@@ -102,4 +124,11 @@ h5.card-title {
 
     .category__combi {
         background-color: var(--combi);
+    }
+
+
+    /** MEDIA QUERY **/
+
+    @media (min-width: 992px) { 
+        
     }
