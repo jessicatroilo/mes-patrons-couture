@@ -1,8 +1,8 @@
 
 # <p align="center">Projet d'intégration de site statique - Collection de patrons de couture 🪡</p>
   
-Bienvenue sur le projet d'intégration d'un site statique à partir d'une maquette. Ce site a pour but de répertorier une collection de patrons de couture et de tester le responsive design en utilisant Bootstrap CSS.
 
+Bienvenue sur le projet d'intégration d'un site statique à partir d'une maquette. Ce site a pour but de répertorier une collection de patrons de couture et de tester le responsive design en utilisant Bootstrap CSS.
 
 ## 🔍 Aperçu
 
@@ -13,7 +13,9 @@ Voici un aperçu de la page d'accueil du site en version desktop et mobile :
 ## 🧐 Fonctionnalités
 
 Page d'accueil avec un design responsive pour une utilisation optimale sur desktop et mobile.
+
 Utilisation de Bootstrap CSS pour un développement rapide et efficace.
+
 Répertorie les patrons de couture de la collection avec une image, un titre et une description.
 
 
