@@ -8,7 +8,10 @@ Bienvenue sur le projet d'intégration d'un site statique à partir d'une maquet
 
 Voici un aperçu de la page d'accueil du site en version desktop et mobile :
 
-*-Images à venir -*
+
+![Version mobile](https://github.com/jessicatroilo/mes-patrons-couture/assets/148094229/864c62a3-9f63-4cfb-884e-b503556ebc76)
+![Version desktop](https://github.com/jessicatroilo/mes-patrons-couture/assets/148094229/2d44d898-eb4d-4cc3-b393-6324cf537b5e)
+
 
 ## 🧐 Fonctionnalités
 
