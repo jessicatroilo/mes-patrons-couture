@@ -1,0 +1,105 @@
+:root {
+    --primary : #5CA9BC;
+    --secondary : #B494D3;
+    --accent : #C87ECA;
+    --background : #F7FBFC;
+    --text : #060E0F;
+
+    /* Category */
+    --dress : #E38BCF;
+    --night : #BCAABA;
+    --top : #627FE2;
+    --casual : #9CCED5;
+    --bottom : #DC6E81;
+    --kid : #A3CC6B;
+    --combi : #7E72CC;
+}
+
+html {
+    color: var(--text);
+}
+
+/** CARD **/
+
+.card {
+    box-shadow: #dee0e0 0px 0px 10px;
+    border: none;
+}
+
+.card-img {
+    border-radius: 15%;
+    width: 80%;
+    align-self: center;
+    margin-top: 1em;
+}
+
+.card-text:last-child {
+    margin-bottom: 1em;
+}
+
+h5.card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.color__btn {
+    background-color: var(--secondary);
+    color: var(--text);
+    border : none;
+    border-radius: 0;
+    width: 100%;
+    font-size: 1.2em;
+    align-items: center;
+
+}
+
+.color__btn:hover {
+    background-color: var(--primary);
+    color: var(--text);
+
+}
+
+.color__circle {
+    background-color: var(--accent);
+}
+
+.size__text {
+    font-size: 0.9em;
+}
+
+/* Category */
+    .category {
+        border-radius : 1.5em;
+        text-align: center;
+        padding : 0.3em 0.8em;
+        color : var(--background);
+        font-weight: bold;
+    }
+
+    .category__dress {
+        background-color: var(--dress);
+    }
+
+    .category__night {
+        background-color: var(--night);
+    }
+
+    .category__top {
+        background-color: var(--top);
+    }
+
+    .category__bottom {
+        background-color: var(--bottom);
+    }
+
+    .category__kid {
+        background-color: var(--kid);
+    }
+
+    .category__casual {
+        background-color: var(--casual);
+    }
+
+    .category__combi {
+        background-color: var(--combi);
+    }
