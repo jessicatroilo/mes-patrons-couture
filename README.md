@@ -34,12 +34,12 @@ Pour installer ce projet sur votre ordinateur, suivez les étapes suivantes :
 
 Clonez ce dépôt en utilisant la commande suivante :
 ```bash
-git clone https://github.com/votre-nom-utilisateur/votre-nom-de-projet.git
+git clone https://github.com/jessicatroilo/mes-patrons-couture.git
 ```
 
 Accédez au répertoire du projet :
 ```bash
-cd votre-nom-de-projet
+cd mes-patron-couture
 ```
 
 Ouvrez le fichier index.html dans votre navigateur web préféré.
